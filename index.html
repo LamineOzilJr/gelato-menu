@@ -1,0 +1,1106 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aroma Gelato — La Carte</title>
+<meta name="description" content="La carte d’Aroma Gelato à Dakar : pizzas, pasta, burgers, gelatos, crêpes, cafés et boissons. Amitié 3 · Mariste · Yoff · Rufisque.">
+<meta name="theme-color" content="#0B0A08">
+<meta name="color-scheme" content="dark">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Aroma Gelato — La Carte">
+<meta property="og:description" content="Pizzas, pasta, burgers, gelatos, crêpes, cafés et boissons. Amitié 3 · Mariste · Yoff · Rufisque.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230B0A08'/%3E%3Ctext x='32' y='46' text-anchor='middle' font-family='Georgia,serif' font-size='42' font-weight='700' fill='%23C4A765'%3EA%3C/text%3E%3C/svg%3E">
+<meta property="og:url" content="https://aroma-gelato-dakar.vercel.app/">
+<meta property="og:image" content="https://aroma-gelato-dakar.vercel.app/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Aroma Gelato — La Carte">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://aroma-gelato-dakar.vercel.app/">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/art/gelato.41ec3570cc.svg" as="image" type="image/svg+xml" fetchpriority="high">
+<link rel="preload" href="/fonts/playfair.5cca0c34d1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-400.dd1db7dd67.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-600.6a7f28c5a6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/poppins-500.6adf947a89.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/playfair-italic.55de7fa52d.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: 'Playfair Display'; font-style: normal; font-weight: 500 600; font-display: swap; src: url(/fonts/playfair.5cca0c34d1.woff2) format('woff2'); }
+@font-face { font-family: 'Playfair Display'; font-style: italic; font-weight: 500; font-display: swap; src: url(/fonts/playfair-italic.55de7fa52d.woff2) format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 400; font-display: swap; src: url(/fonts/poppins-400.dd1db7dd67.woff2) format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 500; font-display: swap; src: url(/fonts/poppins-500.6adf947a89.woff2) format('woff2'); }
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 600; font-display: swap; src: url(/fonts/poppins-600.6a7f28c5a6.woff2) format('woff2'); }
+
+:root {
+  --bg: #0B0A08;
+  --surface: #15130F;
+  --surface-2: #1C1914;
+  --gold: #C4A765;
+  --gold-mid: #A68B4C;
+  --gold-deep: #836F39;
+  --ivory: #F3EEE3;
+  --muted: #A39B8B;
+  --line: rgba(196, 167, 101, .18);
+  --line-strong: rgba(196, 167, 101, .36);
+  --hair: rgba(243, 238, 227, .08);
+  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --radius: 16px;
+  --bar-h: 60px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --wide: 1040px;
+  --narrow: 760px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html { background: var(--bg); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body {
+  margin: 0;
+  min-height: 100vh;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--ivory);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1, h2, h3, p, ul { margin: 0; }
+ul { padding: 0; list-style: none; }
+button { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; }
+a { color: inherit; text-decoration: none; }
+a, button { -webkit-tap-highlight-color: transparent; }
+svg { display: block; flex-shrink: 0; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 8px; }
+.skip { position: absolute; left: 12px; top: -64px; z-index: 50; padding: 10px 16px; border-radius: 999px; background: var(--ivory); color: var(--bg); font-size: 13px; font-weight: 600; transition: top .2s; }
+.skip:focus { top: calc(8px + var(--safe-top)); }
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.ico { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+.art { display: block; }
+
+/* ——— Barre du haut ——— */
+.bar {
+  position: sticky; top: 0; z-index: 20;
+  padding-top: var(--safe-top);
+  background: rgba(11, 10, 8, .9);
+  -webkit-backdrop-filter: saturate(140%) blur(16px);
+  backdrop-filter: saturate(140%) blur(16px);
+  border-bottom: 1px solid var(--line);
+}
+.bar__inner {
+  height: var(--bar-h); max-width: var(--wide); margin: 0 auto; padding: 0 10px;
+  display: grid; grid-template-columns: 1fr auto 1fr; align-items: center;
+}
+.bar__start { justify-self: start; display: flex; align-items: center; }
+.bar__end { justify-self: end; display: flex; align-items: center; }
+.icon-btn { width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; transition: background-color .2s; }
+.icon-btn:hover { background: rgba(243, 238, 227, .06); }
+.back-btn { height: 44px; display: inline-flex; align-items: center; gap: 2px; padding: 0 12px 0 4px; border-radius: 22px; font-size: 13px; font-weight: 500; transition: background-color .2s; }
+.back-btn:hover { background: rgba(243, 238, 227, .06); }
+.back-btn .ico { color: var(--gold); stroke-width: 1.8; }
+.brand { display: flex; flex-direction: column; align-items: center; gap: 5px; padding: 8px 10px; border-radius: 10px; }
+.brand__name { font-family: var(--serif); font-size: 21px; font-weight: 600; line-height: 1; letter-spacing: .24em; margin-right: -.24em; color: var(--gold); }
+.brand__sub { font-size: 8px; font-weight: 500; line-height: 1; letter-spacing: .5em; margin-right: -.5em; color: var(--muted); }
+.lang { display: flex; align-items: center; }
+.lang button { width: 40px; height: 44px; font-size: 12px; font-weight: 600; letter-spacing: .08em; color: var(--muted); transition: color .2s; }
+.lang button span { padding-bottom: 3px; border-bottom: 1px solid transparent; transition: border-color .2s; }
+.lang button:hover { color: var(--ivory); }
+.lang button[aria-pressed="true"] { color: var(--gold); }
+.lang button[aria-pressed="true"] span { border-bottom-color: var(--gold); }
+.lang__sep { width: 1px; height: 14px; background: rgba(243, 238, 227, .22); }
+
+/* ——— Rubriques (pastilles) ——— */
+.chips { border-top: 1px solid var(--hair); }
+.chips__track {
+  position: relative; max-width: var(--narrow); margin: 0 auto; padding: 11px 16px;
+  display: flex; gap: 8px; overflow-x: auto; overscroll-behavior-x: contain;
+  scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+  mask-image: linear-gradient(90deg, transparent 0, #000 14px, #000 calc(100% - 14px), transparent 100%);
+}
+.chips__track::-webkit-scrollbar { display: none; }
+.chip {
+  flex-shrink: 0; height: 40px; padding: 0 16px; display: inline-flex; align-items: center;
+  border: 1px solid rgba(243, 238, 227, .18); border-radius: 999px;
+  font-size: 13px; font-weight: 500; white-space: nowrap;
+  transition: background-color .2s, color .2s, border-color .2s;
+}
+.chip:hover { border-color: var(--line-strong); }
+.chip[aria-current="page"] { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+
+/* ——— Contenu ——— */
+main { max-width: var(--narrow); margin: 0 auto; padding-bottom: calc(8px + var(--safe-bottom)); }
+body.is-home main { max-width: var(--wide); }
+.view { animation: view-in .45s cubic-bezier(.2, .7, .2, 1) both; }
+@keyframes view-in { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.eyebrow { font-size: 10.5px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
+.rule { width: 56px; height: 2px; background: var(--gold-deep); }
+
+/* Accueil */
+.hero { padding: 34px 24px 32px; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; border-bottom: 1px solid var(--line); }
+.hero__art { height: 128px; width: auto; }
+.hero .eyebrow { font-weight: 500; letter-spacing: .34em; margin-right: -.34em; }
+.hero__title { font-family: var(--serif); font-size: clamp(50px, 14vw, 76px); font-weight: 600; line-height: 1; color: var(--gold); outline: none; }
+.hero__intro { max-width: 300px; font-size: 13px; line-height: 1.6; color: var(--muted); }
+.home-body { padding: 20px 20px 0; }
+.search-cta {
+  width: 100%; height: 52px; padding: 0 18px; display: flex; align-items: center; gap: 12px;
+  border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface);
+  font-size: 13.5px; color: var(--muted); transition: border-color .2s, background-color .2s;
+}
+.search-cta:hover { border-color: var(--gold); background: var(--surface-2); }
+.search-cta .ico { width: 18px; height: 18px; color: var(--gold); stroke-width: 1.7; }
+.index__group { padding-top: 30px; }
+.group-label { display: flex; align-items: center; gap: 12px; padding-bottom: 4px; font-size: 11px; font-weight: 600; letter-spacing: .32em; text-transform: uppercase; color: var(--gold); }
+.group-label::after { content: ""; flex: 1; height: 1px; background: rgba(196, 167, 101, .25); }
+.row { display: flex; align-items: center; gap: 14px; padding: 14px 2px; border-bottom: 1px solid var(--hair); transition: background-color .2s; }
+.row:hover { background: rgba(243, 238, 227, .03); }
+.row__num { width: 24px; flex-shrink: 0; font-family: var(--serif); font-style: italic; font-size: 14px; color: var(--gold-mid); }
+.row__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.row__title { font-family: var(--serif); font-size: 22px; font-weight: 500; line-height: 1.2; }
+.row__meta { font-size: 12px; color: var(--muted); }
+.row .ico { width: 18px; height: 18px; color: var(--gold); transition: transform .2s; }
+.row:hover .ico { transform: translateX(3px); }
+.loc-card {
+  margin-top: 32px; padding: 16px 18px; display: flex; align-items: center; gap: 14px;
+  border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface);
+  transition: border-color .2s, background-color .2s;
+}
+.loc-card:hover { border-color: var(--gold); background: var(--surface-2); }
+.loc-card__icon { width: 44px; height: 44px; flex-shrink: 0; display: grid; place-items: center; border: 1px solid rgba(196, 167, 101, .4); border-radius: 50%; color: var(--gold); }
+.loc-card__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.loc-card__title { font-family: var(--serif); font-size: 20px; font-weight: 500; line-height: 1.2; }
+.loc-card__sub { font-size: 12px; color: var(--muted); }
+.loc-card > .ico { width: 18px; height: 18px; color: var(--gold); }
+.foot { padding: 28px 0 30px; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+.foot__note { font-size: 11px; letter-spacing: .06em; color: var(--muted); }
+.share-btn { height: 44px; padding: 0 18px; display: inline-flex; align-items: center; gap: 10px; border: 1px solid rgba(243, 238, 227, .18); border-radius: 999px; font-size: 13px; font-weight: 500; transition: border-color .2s; }
+.share-btn:hover { border-color: var(--gold); }
+.share-btn .ico { width: 17px; height: 17px; color: var(--gold); }
+
+/* Rubrique */
+.sec-hero { position: relative; min-height: 172px; padding: 28px 20px 24px; border-bottom: 1px solid var(--line); }
+.sec-hero__art { position: absolute; right: 16px; top: 22px; height: 128px; width: auto; max-width: 36%; object-fit: contain; object-position: right center; }
+.sec-hero__text { position: relative; max-width: 62%; display: flex; flex-direction: column; gap: 10px; }
+.sec-hero--plain .sec-hero__text { max-width: none; }
+.sec-hero__title { font-family: var(--serif); font-size: clamp(38px, 10.5vw, 54px); font-weight: 600; line-height: 1.05; color: var(--gold); outline: none; }
+.sec-hero .rule { width: 48px; }
+.sec-hero__note { font-size: 13px; line-height: 1.55; color: var(--muted); }
+.groups { padding: 0 20px; }
+.grp { padding-top: 22px; }
+.grp__title { display: flex; align-items: center; gap: 12px; padding-bottom: 4px; font-family: var(--serif); font-style: italic; font-size: 21px; font-weight: 500; line-height: 1.3; }
+.grp__title::after { content: ""; flex: 1; height: 1px; background: rgba(196, 167, 101, .25); }
+.cols-head { display: flex; align-items: center; gap: 8px; padding: 8px 0 2px; }
+.cols-head__unit { flex: 1; font-size: 10px; letter-spacing: .12em; color: var(--muted); }
+.cols-head__col { width: 64px; text-align: right; font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+.item { display: flex; align-items: flex-start; gap: 16px; padding: 14px 0; border-bottom: 1px solid var(--hair); scroll-margin-top: 150px; }
+.item__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.item__name { font-size: 14px; font-weight: 600; line-height: 1.35; letter-spacing: .04em; text-transform: uppercase; }
+.item__desc { font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.price { flex-shrink: 0; white-space: nowrap; font-size: 15px; font-weight: 600; line-height: 1.35; color: var(--gold); font-variant-numeric: tabular-nums; }
+.price small { padding-left: 4px; font-size: 10px; font-weight: 500; letter-spacing: .06em; color: var(--muted); }
+.prices { flex-shrink: 0; display: flex; gap: 8px; }
+.prices .price { width: 64px; text-align: right; }
+.item.is-flash { animation: flash 2.4s ease-out; }
+@keyframes flash {
+  0%, 30% { background: rgba(196, 167, 101, .16); box-shadow: -12px 0 0 rgba(196, 167, 101, .16), 12px 0 0 rgba(196, 167, 101, .16); }
+  100% { background: transparent; box-shadow: -12px 0 0 transparent, 12px 0 0 transparent; }
+}
+.tags { display: flex; flex-wrap: wrap; gap: 8px; padding: 14px 0 4px; }
+.tags li { padding: 7px 13px; border: 1px solid rgba(196, 167, 101, .32); border-radius: 999px; font-size: 12.5px; }
+.pager { padding: 32px 20px 30px; display: flex; flex-direction: column; gap: 8px; }
+.next-link {
+  padding: 16px 20px; display: flex; align-items: center; gap: 14px;
+  border: 1px solid rgba(196, 167, 101, .32); border-radius: var(--radius); background: var(--surface);
+  transition: border-color .2s, background-color .2s;
+}
+.next-link:hover { border-color: var(--gold); background: var(--surface-2); }
+.next-link__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.next-link__label { font-size: 10px; font-weight: 600; letter-spacing: .28em; text-transform: uppercase; color: var(--gold); }
+.next-link__title { font-family: var(--serif); font-size: 22px; font-weight: 500; line-height: 1.2; }
+.next-link .ico { width: 22px; height: 22px; color: var(--gold); transition: transform .2s; }
+.next-link:hover .ico { transform: translateX(3px); }
+.prev-link { align-self: flex-start; height: 44px; padding-right: 8px; display: inline-flex; align-items: center; gap: 4px; font-size: 13px; color: var(--muted); transition: color .2s; }
+.prev-link:hover { color: var(--ivory); }
+.prev-link .ico { width: 18px; height: 18px; }
+
+/* Recherche */
+.search { padding: 20px 20px 30px; display: flex; flex-direction: column; gap: 18px; }
+.search__title { font-family: var(--serif); font-size: 34px; font-weight: 600; line-height: 1.1; color: var(--gold); outline: none; }
+.field {
+  height: 54px; padding: 0 8px 0 18px; display: flex; align-items: center; gap: 10px;
+  border: 1px solid rgba(196, 167, 101, .5); border-radius: 999px; background: var(--surface);
+  transition: border-color .2s, box-shadow .2s;
+}
+.field:focus-within { border-color: var(--gold); box-shadow: 0 0 0 3px rgba(196, 167, 101, .2); }
+.field > .ico { width: 18px; height: 18px; color: var(--gold); stroke-width: 1.7; }
+.field input {
+  flex: 1; min-width: 0; height: 44px; padding: 0; border: 0; background: transparent;
+  color: var(--ivory); font-family: var(--sans); font-size: 16px; -webkit-appearance: none; appearance: none;
+}
+.field input::placeholder { color: #8E8676; }
+.field input:focus { outline: none; }
+.field input::-webkit-search-cancel-button { display: none; }
+.clear-btn { width: 36px; height: 36px; display: grid; place-items: center; border-radius: 50%; background: rgba(243, 238, 227, .08); transition: background-color .2s; }
+.clear-btn:hover { background: rgba(243, 238, 227, .14); }
+.clear-btn .ico { width: 14px; height: 14px; stroke-width: 2; }
+.suggest { display: flex; flex-direction: column; gap: 12px; }
+.suggest__list { display: flex; flex-wrap: wrap; gap: 8px; }
+.suggest__list button { height: 40px; padding: 0 16px; border: 1px solid rgba(243, 238, 227, .18); border-radius: 999px; font-size: 13px; transition: border-color .2s; }
+.suggest__list button:hover { border-color: var(--gold); }
+.results__count { padding-bottom: 6px; font-size: 12px; color: var(--muted); }
+.result { display: flex; align-items: center; gap: 14px; padding: 13px 0; border-bottom: 1px solid var(--hair); transition: background-color .2s; }
+.result:hover { background: rgba(243, 238, 227, .03); }
+.result__text { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.result__name { font-size: 13.5px; font-weight: 600; line-height: 1.35; letter-spacing: .04em; text-transform: uppercase; }
+.result__name mark { background: none; color: var(--gold); }
+.result__where { font-size: 12px; color: var(--muted); }
+.result .price { font-size: 14px; }
+.result > .ico { width: 18px; height: 18px; color: var(--gold); }
+.tags.is-flash { border-radius: 12px; }
+.empty { padding: 26px 0; text-align: center; font-size: 13.5px; line-height: 1.6; color: var(--muted); }
+.empty strong { display: block; margin-bottom: 4px; font-weight: 500; color: var(--ivory); }
+
+/* Adresses */
+.locs { padding: 18px 20px 0; display: flex; flex-direction: column; gap: 14px; }
+.loc { padding: 18px; display: flex; flex-direction: column; gap: 14px; border: 1px solid rgba(196, 167, 101, .22); border-radius: var(--radius); background: var(--surface); }
+.loc__head { display: flex; align-items: flex-start; gap: 12px; }
+.loc__head .ico { margin-top: 3px; color: var(--gold); }
+.loc__name { font-family: var(--serif); font-size: 22px; font-weight: 500; line-height: 1.2; }
+.loc__place { margin-top: 3px; font-size: 12.5px; line-height: 1.5; color: var(--muted); }
+.loc__phones { display: flex; gap: 8px; }
+.tel {
+  flex: 1 1 0; min-width: 0; height: 44px; display: flex; align-items: center; justify-content: center; gap: 8px;
+  border: 1px solid rgba(196, 167, 101, .4); border-radius: 999px; font-size: 13px; font-weight: 500; white-space: nowrap;
+  font-variant-numeric: tabular-nums; transition: background-color .2s, border-color .2s, color .2s;
+}
+.tel:hover { background: var(--gold); border-color: var(--gold); color: var(--bg); }
+.tel .ico { width: 15px; height: 15px; color: var(--gold); transition: color .2s; }
+.tel:hover .ico { color: var(--bg); }
+.follow { padding: 30px 20px 30px; display: flex; flex-direction: column; gap: 2px; }
+.follow .eyebrow { padding-bottom: 8px; }
+.follow__link { height: 44px; display: flex; align-items: center; gap: 12px; font-size: 13.5px; }
+.follow__link .ico { color: var(--gold); stroke-width: 1.5; }
+a.follow__link:hover span { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
+
+/* Bouton retour en haut + message */
+.to-top {
+  position: fixed; right: 16px; bottom: calc(16px + var(--safe-bottom)); z-index: 30;
+  width: 48px; height: 48px; display: grid; place-items: center; border-radius: 50%;
+  border: 1px solid var(--line-strong); background: var(--surface-2); color: var(--gold);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .5);
+  opacity: 0; transform: translateY(12px); pointer-events: none; transition: opacity .25s, transform .25s;
+}
+.to-top.is-on { opacity: 1; transform: none; pointer-events: auto; }
+.toast {
+  position: fixed; left: 50%; bottom: calc(24px + var(--safe-bottom)); z-index: 40;
+  padding: 11px 18px; border-radius: 999px; background: var(--ivory); color: var(--bg);
+  font-size: 13px; font-weight: 500; box-shadow: 0 10px 28px rgba(0, 0, 0, .5);
+  opacity: 0; transform: translate(-50%, 10px); pointer-events: none; transition: opacity .25s, transform .25s;
+}
+.toast.is-on { opacity: 1; transform: translate(-50%, 0); }
+.update {
+  position: fixed; left: 16px; right: 16px; bottom: calc(16px + var(--safe-bottom)); z-index: 40;
+  max-width: 440px; margin: 0 auto; padding: 8px 8px 8px 18px; display: flex; align-items: center; gap: 12px;
+  border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface-2);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, .5); font-size: 13px; animation: view-in .35s ease-out both;
+}
+.update span { flex: 1; min-width: 0; }
+.update button { height: 40px; padding: 0 18px; border-radius: 999px; background: var(--gold); color: var(--bg); font-size: 13px; font-weight: 600; }
+body.has-update .to-top { bottom: calc(84px + var(--safe-bottom)); }
+.noscript { max-width: 520px; margin: 0 auto; padding: 48px 24px; text-align: center; color: var(--muted); }
+
+/* Tablette et ordinateur */
+@media (min-width: 700px) {
+  .hero { padding: 48px 24px 44px; }
+  .hero__art { height: 150px; }
+  .home-body { padding: 28px 32px 0; }
+  .search-cta { max-width: 560px; margin: 0 auto; }
+  .sec-hero { min-height: 200px; padding: 36px 32px 30px; }
+  .sec-hero__art { height: 150px; right: 28px; top: 26px; }
+  .groups, .pager, .search, .locs, .follow { padding-left: 32px; padding-right: 32px; }
+  .item__name { font-size: 15px; }
+  .item__desc { font-size: 13px; }
+  .locs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 980px) {
+  .index { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0 40px; }
+  .loc-card { max-width: 560px; margin-left: auto; margin-right: auto; }
+}
+@media (hover: none) {
+  .row:hover, .result:hover { background: transparent; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
+</style>
+</head>
+<body class="is-home">
+<a class="skip" href="#main" id="skip">Aller au contenu</a>
+<header class="bar" id="bar">
+  <div class="bar__inner">
+    <div class="bar__start" id="barStart"></div>
+    <a class="brand" href="#/" aria-label="Aroma Gelato">
+      <span class="brand__name" aria-hidden="true">AROMA</span>
+      <span class="brand__sub" aria-hidden="true">GELATO</span>
+    </a>
+    <div class="bar__end">
+      <div class="lang" role="group" id="langGroup" aria-label="Langue">
+        <button type="button" data-lang="fr" lang="fr" aria-pressed="true"><span>FR</span></button>
+        <span class="lang__sep" aria-hidden="true"></span>
+        <button type="button" data-lang="en" lang="en" aria-pressed="false"><span>EN</span></button>
+      </div>
+    </div>
+  </div>
+  <nav class="chips" id="chips" aria-label="Rubriques du menu" hidden>
+    <div class="chips__track" id="chipsTrack"></div>
+  </nav>
+</header>
+<main id="main" tabindex="-1">
+  <noscript><p class="noscript">Activez JavaScript pour afficher la carte.</p></noscript>
+</main>
+<button type="button" class="to-top" id="toTop" aria-label="Revenir en haut">
+  <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6"/></svg>
+</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="update" id="update" role="status" hidden><span id="updateText"></span><button type="button" id="updateBtn"></button></div>
+<div class="sr-only" id="live" aria-live="polite"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* ================================================================
+     CARTE — pour modifier un prix ou un plat, éditez simplement
+     les lignes ci-dessous (p = prix en FCFA).
+     ================================================================ */
+  var d = function (fr, en) { return { fr: fr, en: en }; };
+
+  var MENU = [
+    { id: 'pizzas', g: 'cuisine', t: d('Pizzas', 'Pizzas'), art: 'pizza', groups: [
+      { cols: [d('Moyenne', 'Medium'), d('Grande', 'Large')], items: [
+        { n: 'Pizza Reine', d: d('Sauce tomate, jambon de bœuf, emmental râpé, champignons', 'Tomato sauce, beef ham, grated Emmental, mushrooms'), p: [4500, 5500] },
+        { n: 'Street Kebab', d: d('Kebab, sauce tomate, emmental', 'Kebab meat, tomato sauce, Emmental'), p: [4500, 5500] },
+        { n: 'Chickenita', d: d('Poulet, sauce tomate, emmental, épices orientales', 'Chicken, tomato sauce, Emmental, oriental spices'), p: [4500, 5500] },
+        { n: 'Orientale', d: d('Merguez, sauce tomate, emmental', 'Merguez sausage, tomato sauce, Emmental'), p: [4500, 5500] },
+        { n: d('3 Fromages', '3 Cheese'), d: d('Roquefort, bleu d’Auvergne, emmental, sauce tomate', 'Roquefort, Bleu d’Auvergne, Emmental, tomato sauce'), p: [4500, 5500] },
+        { n: 'Margherita', d: d('Sauce tomate, emmental râpé', 'Tomato sauce, grated Emmental'), p: [4500, 5500] },
+        { n: d('Végétarienne', 'Vegetarian'), d: d('Sauce tomate, poivrons, tomates cerises', 'Tomato sauce, bell peppers, cherry tomatoes'), p: [4500, 5500] },
+        { n: 'Espagnola', d: d('Viande hachée, sauce tomate, emmental', 'Minced meat, tomato sauce, Emmental'), p: [4500, 5500] },
+        { n: d('Fruits de Mer', 'Seafood'), p: [5500, 6500] }
+      ] }
+    ] },
+    { id: 'pasta', g: 'cuisine', t: d('Pasta', 'Pasta'), art: 'pasta', groups: [
+      { items: [
+        { n: 'Tagliatelle Pesto', d: d('Tagliatelle, poulet, basilic, huile d’olive, parmesan', 'Tagliatelle, chicken, basil, olive oil, Parmesan'), p: 4500 },
+        { n: d('Spaghetti Bolognaise', 'Spaghetti Bolognese'), d: d('Viande hachée, sauce tomate, parmesan', 'Minced meat, tomato sauce, Parmesan'), p: 4000 },
+        { n: 'Penne Arrabbiata', d: d('Penne, sauce arrabbiata, parmesan', 'Penne, arrabbiata sauce, Parmesan'), p: 4000 },
+        { n: d('Penne Crevette', 'Shrimp Penne'), d: d('Penne, crevettes, sauce tomate, crème fraîche, parmesan', 'Penne, shrimp, tomato and cream sauce, Parmesan'), p: 4500 }
+      ] }
+    ] },
+    { id: 'burgers', g: 'cuisine', t: d('Burgers', 'Burgers'), groups: [
+      { items: [
+        { n: d('Classique', 'Classic'), d: d('Steak, emmental, œuf, cornichon, tomate, ketchup, sauce burger', 'Beef patty, Emmental, egg, pickle, tomato, ketchup, burger sauce'), p: 2000 },
+        { n: 'Le Cheese', d: d('Steak, salade, emmental, cheddar, cornichon, tomate, ketchup, sauce burger, frites', 'Beef patty, lettuce, Emmental, cheddar, pickle, tomato, ketchup, burger sauce, fries'), p: 2500 },
+        { n: 'Le Double Cheese', d: d('Double steak, salade, tomate, emmental, cheddar, cornichon, ketchup, sauce algérienne, frites', 'Double beef patty, lettuce, tomato, Emmental, cheddar, pickle, ketchup, Algerian sauce, fries'), p: 3000 },
+        { n: 'L’Arôme Burger', d: d('Double steak, salade, cornichon, œuf, cheddar, emmental, ketchup, sauce burger, frites', 'Double beef patty, lettuce, pickle, egg, cheddar, Emmental, ketchup, burger sauce, fries'), p: 3500 },
+        { n: d('L’Assiette Burger', 'Burger Plate'), p: 3500 },
+        { n: d('Le Chicken Burger', 'Chicken Burger'), p: 2000 }
+      ] }
+    ] },
+    { id: 'sandwichs', g: 'cuisine', t: d('Sandwichs & Tacos', 'Sandwiches & Tacos'), art: 'sandwich', groups: [
+      { items: [
+        { n: d('Club Poulet', 'Chicken Club'), d: d('Blanc de poulet, crudités, œuf', 'Chicken breast, crudités, egg'), p: 2000 },
+        { n: d('Club au Thon', 'Tuna Club'), d: d('Thon en tranches, crudités, œuf, sauce moutarde', 'Sliced tuna, crudités, egg, mustard sauce'), p: 2000 },
+        { n: d('Panini Poulet', 'Chicken Panini'), d: d('Filet de poulet, emmental, sauce', 'Chicken fillet, Emmental, sauce'), p: 2500 },
+        { n: d('Panini Jambon', 'Ham Panini'), d: d('Filet de jambon de bœuf, emmental, sauce', 'Beef ham, Emmental, sauce'), p: 2500 },
+        { n: d('Wraps Poulet', 'Chicken Wrap'), d: d('Poulet, œufs, emmental, crudités, sauce', 'Chicken, egg, Emmental, crudités, sauce'), p: 3000 },
+        { n: d('Wraps Kebab', 'Kebab Wrap'), d: d('Viande grillée, œuf, emmental, crudités, sauce', 'Grilled meat, egg, Emmental, crudités, sauce'), p: 3000 },
+        { n: 'Croque Monsieur', d: d('Jambon de bœuf, fromage, sauce cocktail', 'Beef ham, cheese, cocktail sauce'), p: 2500 },
+        { n: 'Club Sandwich', d: d('Baguette, jambon, salade, mayonnaise', 'Baguette, ham, lettuce, mayonnaise'), p: 2500 }
+      ] },
+      { t: d('Tacos', 'Tacos'), items: [
+        { n: d('Tacos Poulet', 'Chicken Tacos'), d: d('Tortilla, frites, poulet, emmental', 'Tortilla, fries, chicken, Emmental'), p: 3000 },
+        { n: d('Tacos Viande', 'Meat Tacos'), d: d('Tortilla, viande, frites, emmental', 'Tortilla, meat, fries, Emmental'), p: 3000 }
+      ] }
+    ] },
+    { id: 'bistro', g: 'cuisine', t: d('Bistro', 'Bistro'), art: 'crepe', note: d('Crêpes salées, wraps et sandwich', 'Savoury crêpes, wraps and sandwich'), groups: [
+      { t: d('Crêpes salées', 'Savoury crêpes'), cols: [d('Normal', 'Regular'), d('XL', 'XL')], items: [
+        { n: d('Crêpe jambon, fromage & œuf', 'Ham, cheese & egg crêpe'), p: [2500, 4500] },
+        { n: d('Crêpe poulet & œuf', 'Chicken & egg crêpe'), p: [3000, 4500] }
+      ] },
+      { t: d('Wraps & sandwich', 'Wraps & sandwich'), items: [
+        { n: d('Wraps au poulet & frites', 'Chicken wrap & fries'), p: 3000 },
+        { n: d('Sandwich poulet, crudités & œufs', 'Chicken sandwich, crudités & egg'), p: 1500 }
+      ] }
+    ] },
+    { id: 'salades', g: 'cuisine', t: d('Salades', 'Salads'), groups: [
+      { items: [
+        { n: 'Niçoise', d: d('Thon, œuf, tomate, concombre, poivron vert, oignon', 'Tuna, egg, tomato, cucumber, green pepper, onion'), p: 4000 },
+        { n: d('César', 'Caesar'), d: d('Salade, poulet, persil, sauce César', 'Lettuce, chicken, parsley, Caesar dressing'), p: 4000 },
+        { n: d('Avocat Crevette', 'Avocado & Shrimp'), d: d('Salade, tomate, crevettes, oignon vert, olives noires', 'Lettuce, tomato, shrimp, spring onion, black olives'), p: 4000 }
+      ] }
+    ] },
+    { id: 'dibiterie', g: 'cuisine', t: d('Dibiterie Aroma', 'Dibiterie Aroma'), art: 'lamb', note: d('Le dibi, viande grillée à la sénégalaise', 'Dibi, Senegalese-style grilled meat'), groups: [
+      { items: [
+        { n: d('Moitié', 'Half'), p: 5000 },
+        { n: 'Kilo', p: 10000 }
+      ] }
+    ] },
+    { id: 'gelatos', g: 'douceurs', t: d('Gelatos', 'Gelato'), art: 'gelato', groups: [
+      { t: d('Cônes', 'Cones'), items: [
+        { n: d('Petit', 'Small'), d: d('1 parfum', '1 flavour'), p: 1500 },
+        { n: d('Moyen', 'Medium'), d: d('2 parfums', '2 flavours'), p: 2000 },
+        { n: d('Grand', 'Large'), d: d('3 parfums', '3 flavours'), p: 3000 },
+        { n: d('Cône XL', 'XL Cone'), d: d('4 parfums', '4 flavours'), p: 3500 }
+      ] },
+      { t: d('À la boule', 'By the scoop'), items: [
+        { n: d('Une boule', 'One scoop'), d: d('1 parfum', '1 flavour'), p: 1500 },
+        { n: d('Deux boules', 'Two scoops'), d: d('2 parfums', '2 flavours'), p: 2000 },
+        { n: d('Trois boules', 'Three scoops'), d: d('3 parfums', '3 flavours'), p: 3000 }
+      ] },
+      { t: d('Barquettes', 'Tubs'), items: [
+        { n: '500 ml', p: 4500 },
+        { n: '1 000 ml', p: 8500 }
+      ] }
+    ] },
+    { id: 'crepes', g: 'douceurs', t: d('Crêpes & Gaufres', 'Crêpes & Waffles'), art: 'crepe', groups: [
+      { items: [
+        { n: d('Nature ou sucre', 'Plain or with sugar'), p: 1500 },
+        { n: d('Avec une boule de glace', 'With a scoop of ice cream'), p: 3000 },
+        { n: d('À 1 ingrédient', 'With 1 topping'), p: 2000 },
+        { n: d('À 2 ingrédients', 'With 2 toppings'), p: 3000 },
+        { n: d('Ingrédient extra', 'Extra topping'), p: 500, x: 1 },
+        { n: d('Boule de glace extra', 'Extra scoop of ice cream'), p: 1500, x: 1 }
+      ] },
+      { t: d('Ingrédients au choix', 'Choice of toppings'), tags: d(
+        ['Nutella', 'Confiture', 'Miel', 'Chocolat blanc', 'Chocolat noir', '2 chocolats', 'Chantilly', 'Lait concentré sucré', 'Caramel', 'Biscuit Oreo'],
+        ['Nutella', 'Jam', 'Honey', 'White chocolate', 'Dark chocolate', '2 chocolates', 'Whipped cream', 'Sweetened condensed milk', 'Caramel', 'Oreo biscuit']) }
+    ] },
+    { id: 'viennoiseries', g: 'douceurs', t: d('Viennoiseries', 'Pastries'), groups: [
+      { items: [
+        { n: d('Croissant au beurre', 'Butter croissant'), p: 500 },
+        { n: d('Pain au chocolat', 'Chocolate croissant'), p: 600 },
+        { n: d('Pain aux raisins', 'Raisin swirl'), p: 600 },
+        { n: d('Chausson aux pommes', 'Apple turnover'), p: 700 },
+        { n: 'Drops', p: 700 }
+      ] }
+    ] },
+    { id: 'cafes', g: 'boissons', t: d('Cafés & Thé', 'Coffee & Tea'), art: 'coffee', groups: [
+      { items: [
+        { n: d('Café noir', 'Black coffee'), d: d('Espresso', 'Espresso'), p: 1000 },
+        { n: d('Café avec nuage de lait', 'Coffee with a dash of milk'), p: 1600 },
+        { n: d('Café au lait', 'Coffee with milk'), p: 2000 },
+        { n: 'Café frappé', d: d('Avec glace', 'With ice cream'), p: 2500 },
+        { n: 'Cappuccino', p: 2500 },
+        { n: d('Cappuccino à la crème chantilly', 'Cappuccino with whipped cream'), p: 2800 },
+        { n: d('Chocolat chaud', 'Hot chocolate'), p: 2000 },
+        { n: d('Chocolat chaud avec chantilly', 'Hot chocolate with whipped cream'), p: 2800 },
+        { n: d('Thé', 'Tea'), p: 1400 }
+      ] },
+      { t: d('Café Speziale', 'Café Speziale'), items: [
+        { n: 'Café Java', d: d('Café, chocolat chaud, cacao, crème', 'Coffee, hot chocolate, cocoa and cream'), p: 2500 },
+        { n: 'Café Rus', d: d('Café, glace stracciatella, crème chantilly, amandes croquantes', 'Coffee, stracciatella ice cream, whipped cream, crunchy almonds'), p: 2500 },
+        { n: 'Café Gelatiamo', d: d('Café au lait, glace au citron et à la cannelle', 'Coffee with milk, lemon and cinnamon ice cream'), p: 2500 },
+        { n: 'Café Vienna', d: d('Café, glace à la vanille, crème chantilly, cannelle', 'Coffee, vanilla ice cream, whipped cream and cinnamon'), p: 2500 }
+      ] }
+    ] },
+    { id: 'frappes', g: 'boissons', t: d('Frappés & Smoothies', 'Frappés & Smoothies'), art: 'cup', groups: [
+      { t: d('Frappés', 'Frappés'), items: [
+        { n: 'Frappuccino', d: d('Café, lait, glace pilée, crème chantilly', 'Coffee, milk, crushed ice, whipped cream'), p: 2500 },
+        { n: 'Choco Frappé', d: d('Chocolat, lait, glace pilée, crème chantilly', 'Chocolate, milk, crushed ice, whipped cream'), p: 2500 },
+        { n: 'Caramel Frappé', d: d('Chocolat, lait, glace pilée, crème chantilly, caramel', 'Chocolate, milk, crushed ice, whipped cream, caramel'), p: 2500 },
+        { n: d('Vanille Frappé', 'Vanilla Frappé'), d: d('Vanille, lait, glace pilée, crème chantilly, sirop de chocolat', 'Vanilla, milk, crushed ice, whipped cream, chocolate syrup'), p: 2600 }
+      ] },
+      { t: d('Smoothies & milkshakes', 'Smoothies & milkshakes'), cols: [d('Petit', 'Small'), d('Grand', 'Large')], items: [
+        { n: d('Smoothie ou milkshake', 'Smoothie or milkshake'), p: [3000, 3500] }
+      ] }
+    ] },
+    { id: 'jus', g: 'boissons', t: d('Jus naturels', 'Fresh Juices'), groups: [
+      { items: [
+        { n: d('Jus d’orange pressé', 'Freshly pressed orange juice'), p: 2500 },
+        { n: 'Valencia', d: d('Jus d’orange avec glace à la vanille', 'Orange juice with vanilla ice cream'), p: 3500 },
+        { n: 'Bissap', d: d(null, 'Hibiscus'), p: 1500 },
+        { n: d('Gingembre', 'Ginger'), p: 1500 },
+        { n: 'Bouye', d: d(null, 'Baobab fruit'), p: 1500 },
+        { n: d('Salade de fruits de saison', 'Seasonal fruit salad'), p: 2000 }
+      ] }
+    ] },
+    { id: 'boissons', g: 'boissons', t: d('Boissons fraîches', 'Cold Drinks'), art: 'cup', groups: [
+      { items: [
+        { n: 'Coca-Cola / Coca-Cola Light', p: 1000 },
+        { n: 'Fanta Orange', p: 1000 },
+        { n: 'Sprite', p: 1000 },
+        { n: d('Eau minérale · petite', 'Mineral water · small'), p: 500 },
+        { n: d('Eau minérale · grande', 'Mineral water · large'), p: 1000 },
+        { n: d('Mojito Menthe', 'Mint Mojito'), p: 3000 },
+        { n: d('Mojito Passion', 'Passion Fruit Mojito'), p: 3500 }
+      ] }
+    ] }
+  ];
+
+  var LOCATIONS = [
+    { name: 'Amitié 3', place: null, phones: ['33 825 80 81', '77 129 23 23'] },
+    { name: 'Mariste', place: d('Lot 93, face BICIS', 'Lot 93, opposite BICIS'), phones: ['33 826 24 24', '77 749 05 05'] },
+    { name: 'Yoff', place: d('Station Shell, route de l’aéroport', 'Shell station, airport road'), phones: ['33 825 80 81', '77 129 23 23'] },
+    { name: 'Rufisque', place: d('En face du rond-point Sipres', 'Opposite the Sipres roundabout'), phones: ['33 825 80 81', '77 129 23 23'] }
+  ];
+
+  var GROUPS = ['cuisine', 'douceurs', 'boissons'];
+
+  var UI = {
+    fr: {
+      docTitle: 'Aroma Gelato — La Carte', title: 'La Carte',
+      intro: 'Choisissez une rubrique pour découvrir nos plats et nos prix.',
+      search: 'Rechercher', searchTitle: 'Rechercher', searchCta: 'Rechercher un plat, une boisson…', searchPh: 'Pizza, gelato, mojito…',
+      clear: 'Effacer la recherche', suggest: 'Suggestions', back: 'Carte', home: 'Retour à la carte',
+      next: 'Rubrique suivante', prev: 'Précédente', items: 'choix', from: 'dès',
+      locations: 'Nos adresses', locationsSub: 'Amitié 3 · Mariste · Yoff · Rufisque',
+      tapToCall: 'Touchez un numéro pour appeler directement.', call: 'Appeler', follow: 'Suivez-nous',
+      prices: 'Prix en francs CFA (FCFA)', sections: 'Rubriques du menu', pager: 'Navigation entre rubriques', lang: 'Langue',
+      share: 'Partager la carte', copied: 'Lien copié', top: 'Revenir en haut', skip: 'Aller au contenu',
+      updated: 'La carte a été mise à jour.', refresh: 'Actualiser',
+      one: 'résultat', many: 'résultats', none: 'Aucun résultat pour', noneHint: 'Essayez un autre mot, par exemple « poulet » ou « chocolat ».',
+      groups: { cuisine: 'Cuisine', douceurs: 'Douceurs', boissons: 'Boissons' }
+    },
+    en: {
+      docTitle: 'Aroma Gelato — Menu', title: 'The Menu',
+      intro: 'Choose a section to explore our dishes and prices.',
+      search: 'Search', searchTitle: 'Search', searchCta: 'Search for a dish or a drink…', searchPh: 'Pizza, gelato, mojito…',
+      clear: 'Clear search', suggest: 'Suggestions', back: 'Menu', home: 'Back to the menu',
+      next: 'Next section', prev: 'Previous', items: 'items', from: 'from',
+      locations: 'Our locations', locationsSub: 'Amitié 3 · Mariste · Yoff · Rufisque',
+      tapToCall: 'Tap a number to call us directly.', call: 'Call', follow: 'Follow us',
+      prices: 'Prices in CFA francs (FCFA)', sections: 'Menu sections', pager: 'Section navigation', lang: 'Language',
+      share: 'Share the menu', copied: 'Link copied', top: 'Back to top', skip: 'Skip to content',
+      updated: 'The menu has been updated.', refresh: 'Refresh',
+      one: 'result', many: 'results', none: 'No results for', noneHint: 'Try another word, such as “chicken” or “chocolate”.',
+      groups: { cuisine: 'Savoury', douceurs: 'Sweets', boissons: 'Drinks' }
+    }
+  };
+
+  var SUGGESTIONS = ['Pizza', 'Gelato', 'Crêpe', 'Burger', 'Cappuccino', 'Mojito'];
+
+  /* Illustrations (fichiers versionnés) */
+  var ART = {"gelato":{"src":"/art/gelato.41ec3570cc.svg","w":519,"h":600},"pizza":{"src":"/art/pizza.f4aa740698.svg","w":637,"h":600},"pasta":{"src":"/art/pasta.e620d72ed3.svg","w":486,"h":600},"sandwich":{"src":"/art/sandwich.35b74778ae.svg","w":1000,"h":452},"crepe":{"src":"/art/crepe.c2cd91f04b.svg","w":824,"h":600},"lamb":{"src":"/art/lamb.a45dff2caf.svg","w":675,"h":600},"coffee":{"src":"/art/coffee.e5b8d984da.svg","w":654,"h":600},"cup":{"src":"/art/cup.6f456c88a9.svg","w":215,"h":600}};
+
+  var ICONS = {
+    search: '<circle cx="11" cy="11" r="6.5"/><path d="M20 20l-4.2-4.2"/>',
+    back: '<path d="M15 5l-7 7 7 7"/>',
+    next: '<path d="M9 5l7 7-7 7"/>',
+    arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    pin: '<path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/>',
+    phone: '<path d="M6.6 3.5h2.6l1.4 4.1-2 1.4a12.5 12.5 0 0 0 6.4 6.4l1.4-2 4.1 1.4v2.6a2 2 0 0 1-2.2 2A17 17 0 0 1 4.6 5.7a2 2 0 0 1 2-2.2z"/>',
+    globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    instagram: '<rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".5"/>',
+    facebook: '<path d="M14 8.5h2.5V5H14a4 4 0 0 0-4 4v2H8v3.5h2V21h3.5v-6.5H16l.5-3.5h-3V9.5a1 1 0 0 1 1-1z"/>',
+    close: '<path d="M6 6l12 12M18 6L6 18"/>',
+    share: '<path d="M12 15V4M8 8l4-4 4 4"/><path d="M5 12v6.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5V12"/>'
+  };
+
+  /* ================================================================
+     Outils
+     ================================================================ */
+  var lang = detectLang();
+  var lastKey = null;
+  var lastQuery = '';
+  var pendingFlash = null;
+  var userNavigated = false;
+
+  var main = document.getElementById('main');
+  var barStart = document.getElementById('barStart');
+  var chips = document.getElementById('chips');
+  var chipsTrack = document.getElementById('chipsTrack');
+  var toTop = document.getElementById('toTop');
+  var toast = document.getElementById('toast');
+  var live = document.getElementById('live');
+
+  function load(key) { try { return window.localStorage.getItem(key); } catch (e) { return null; } }
+  function save(key, value) { try { window.localStorage.setItem(key, value); } catch (e) { /* stockage indisponible */ } }
+  function detectLang() {
+    var saved = load('aroma-lang');
+    if (saved === 'fr' || saved === 'en') return saved;
+    var nav = String(navigator.language || 'fr').toLowerCase();
+    return nav.indexOf('en') === 0 ? 'en' : 'fr';
+  }
+  function T() { return UI[lang]; }
+  function L(o) { return o == null ? '' : (typeof o === 'string' ? o : (o[lang] != null ? o[lang] : '')); }
+  function both(o) { return o == null ? '' : (typeof o === 'string' ? o : (o.fr || '') + ' ' + (o.en || '')); }
+  function fmt(n) { return String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '.'); }
+  function esc(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+  function norm(s) { return String(s || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
+  function icon(name, cls) {
+    return '<svg class="ico' + (cls ? ' ' + cls : '') + '" viewBox="0 0 24 24" aria-hidden="true" focusable="false">' + ICONS[name] + '</svg>';
+  }
+  function art(name, cls, eager) {
+    var a = ART[name];
+    if (!a) return '';
+    return '<img class="art ' + cls + '" src="' + a.src + '" width="' + a.w + '" height="' + a.h + '" alt="" decoding="async"' + (eager ? ' fetchpriority="high"' : '') + '>';
+  }
+  function stats(section) {
+    var count = 0, min = Infinity;
+    section.groups.forEach(function (gr) {
+      (gr.items || []).forEach(function (it) {
+        count += 1;
+        if (!it.x) [].concat(it.p).forEach(function (v) { if (v < min) min = v; });
+      });
+    });
+    return { count: count, min: min };
+  }
+  function sectionIndex(id) {
+    for (var i = 0; i < MENU.length; i++) if (MENU[i].id === id) return i;
+    return -1;
+  }
+
+  /* ================================================================
+     Navigation
+     ================================================================ */
+  function parseRoute() {
+    var h = String(location.hash || '').replace(/^#\/?/, '');
+    try { h = decodeURIComponent(h); } catch (e) { /* ignore */ }
+    var id = h.split('/')[0];
+    if (!id) return { view: 'home', key: 'home' };
+    if (id === 'recherche') return { view: 'search', key: 'search' };
+    if (id === 'adresses') return { view: 'adresses', key: 'adresses' };
+    var idx = sectionIndex(id);
+    if (idx >= 0) return { view: 'section', idx: idx, key: 's:' + id };
+    return { view: 'home', key: 'home' };
+  }
+
+  function go(path, opts) {
+    opts = opts || {};
+    var current = history.state || {};
+    try { history.replaceState(Object.assign({}, current, { y: window.scrollY }), ''); } catch (e) { /* ignore */ }
+    var state = { fromHome: !!opts.fromHome, fromSearch: !!opts.fromSearch };
+    var url = '#/' + path;
+    try {
+      if (opts.replace) history.replaceState(state, '', url);
+      else history.pushState(state, '', url);
+    } catch (e) {
+      if (opts.replace) location.replace(url); else location.hash = '/' + path;
+      return;
+    }
+    userNavigated = true;
+    render(true);
+  }
+
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest ? e.target.closest('a[href^="#/"]') : null;
+    if (!a || e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    e.preventDefault();
+    var path = a.getAttribute('href').slice(2);
+    var route = parseRoute();
+    if (a.hasAttribute('data-flash')) pendingFlash = a.getAttribute('data-flash');
+    if (path === '' && route.view === 'home') { window.scrollTo({ top: 0, behavior: 'smooth' }); return; }
+    if (a.getAttribute('data-nav') === 'replace') {
+      var st = history.state || {};
+      go(path, { replace: true, fromHome: st.fromHome, fromSearch: st.fromSearch });
+    } else if (path === '' && (history.state || {}).fromHome && route.view !== 'home') {
+      history.back();
+    } else {
+      go(path, { fromHome: route.view === 'home', fromSearch: route.view === 'search' });
+    }
+  });
+
+  window.addEventListener('popstate', function () { userNavigated = true; render(false); });
+  window.addEventListener('hashchange', function () {
+    if (location.hash && location.hash.indexOf('#/') !== 0) return;
+    userNavigated = true; render(false);
+  });
+  document.getElementById('skip').addEventListener('click', function (e) {
+    e.preventDefault();
+    try { main.focus({ preventScroll: true }); } catch (err) { main.focus(); }
+    main.scrollIntoView();
+  });
+
+  /* ================================================================
+     Rendu
+     ================================================================ */
+  function renderBar(route) {
+    var t = T();
+    if (route.view === 'home') {
+      barStart.innerHTML = '<a class="icon-btn" href="#/recherche" aria-label="' + esc(t.search) + '">' + icon('search') + '</a>';
+    } else {
+      barStart.innerHTML = '<a class="back-btn" href="#/" aria-label="' + esc(t.home) + '">' + icon('back') + '<span>' + esc(t.back) + '</span></a>';
+    }
+    document.querySelectorAll('#langGroup button').forEach(function (b) {
+      b.setAttribute('aria-pressed', String(b.getAttribute('data-lang') === lang));
+    });
+    document.getElementById('langGroup').setAttribute('aria-label', t.lang);
+    chips.setAttribute('aria-label', t.sections);
+    toTop.setAttribute('aria-label', t.top);
+    document.getElementById('skip').textContent = t.skip;
+
+    if (route.view === 'section') {
+      var cur = MENU[route.idx].id;
+      chipsTrack.innerHTML = MENU.map(function (s) {
+        return '<a class="chip" href="#/' + s.id + '" data-nav="replace"' + (s.id === cur ? ' aria-current="page"' : '') + '>' + esc(L(s.t)) + '</a>';
+      }).join('');
+      chips.hidden = false;
+      centerChip();
+    } else {
+      chips.hidden = true;
+      chipsTrack.innerHTML = '';
+    }
+  }
+
+  function centerChip() {
+    var el = chipsTrack.querySelector('[aria-current="page"]');
+    if (!el) return;
+    var left = el.offsetLeft - (chipsTrack.clientWidth - el.offsetWidth) / 2;
+    chipsTrack.scrollLeft = Math.max(0, left);
+  }
+
+  function viewHome() {
+    var t = T();
+    var n = 0;
+    var groups = GROUPS.map(function (g) {
+      var rows = MENU.filter(function (s) { return s.g === g; }).map(function (s) {
+        n += 1;
+        var st = stats(s);
+        return '<li><a class="row" href="#/' + s.id + '">' +
+          '<span class="row__num" aria-hidden="true">' + (n < 10 ? '0' : '') + n + '</span>' +
+          '<span class="row__text"><span class="row__title">' + esc(L(s.t)) + '</span>' +
+          '<span class="row__meta">' + st.count + ' ' + t.items + ' · ' + t.from + ' ' + fmt(st.min) + ' FCFA</span></span>' +
+          icon('next') + '</a></li>';
+      }).join('');
+      return '<section class="index__group" aria-labelledby="g-' + g + '"><h2 class="group-label" id="g-' + g + '">' + esc(t.groups[g]) + '</h2><ul>' + rows + '</ul></section>';
+    }).join('');
+    var canShare = /^https?:$/.test(location.protocol);
+    return '<div class="view">' +
+      '<header class="hero">' + art('gelato', 'hero__art', true) +
+        '<p class="eyebrow">Aroma Gelato · Dakar</p>' +
+        '<h1 class="hero__title" tabindex="-1">' + esc(t.title) + '</h1>' +
+        '<span class="rule" aria-hidden="true"></span>' +
+        '<p class="hero__intro">' + esc(t.intro) + '</p>' +
+      '</header>' +
+      '<div class="home-body">' +
+        '<a class="search-cta" href="#/recherche">' + icon('search') + '<span>' + esc(t.searchCta) + '</span></a>' +
+        '<div class="index">' + groups + '</div>' +
+        '<a class="loc-card" href="#/adresses"><span class="loc-card__icon">' + icon('pin') + '</span>' +
+          '<span class="loc-card__text"><span class="loc-card__title">' + esc(t.locations) + '</span><span class="loc-card__sub">' + esc(t.locationsSub) + '</span></span>' +
+          icon('next') + '</a>' +
+        '<footer class="foot"><p class="foot__note">' + esc(t.prices) + '</p>' +
+          (canShare ? '<button type="button" class="share-btn" data-action="share">' + icon('share') + '<span>' + esc(t.share) + '</span></button>' : '') +
+        '</footer>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function priceHtml(it, gr) {
+    if (Array.isArray(it.p)) {
+      return '<div class="prices">' + it.p.map(function (v, k) {
+        return '<span class="price"><span class="sr-only">' + esc(L(gr.cols[k])) + ' : </span>' + fmt(v) + '<span class="sr-only"> FCFA</span></span>';
+      }).join('') + '</div>';
+    }
+    return '<span class="price">' + fmt(it.p) + '<small>FCFA</small></span>';
+  }
+
+  function viewSection(idx) {
+    var t = T();
+    var s = MENU[idx];
+    var prev = MENU[idx - 1];
+    var next = MENU[idx + 1];
+    var groups = s.groups.map(function (gr, gi) {
+      var h = '<div class="grp">';
+      if (gr.t) h += '<h2 class="grp__title">' + esc(L(gr.t)) + '</h2>';
+      if (gr.cols) {
+        h += '<div class="cols-head" aria-hidden="true"><span class="cols-head__unit">FCFA</span>' +
+          gr.cols.map(function (c) { return '<span class="cols-head__col">' + esc(L(c)) + '</span>'; }).join('') + '</div>';
+      }
+      if (gr.items) {
+        h += '<ul>' + gr.items.map(function (it, ii) {
+          var desc = L(it.d);
+          return '<li class="item" id="' + s.id + '-' + gi + '-' + ii + '"><div class="item__text">' +
+            '<h3 class="item__name">' + esc(L(it.n)) + '</h3>' +
+            (desc ? '<p class="item__desc">' + esc(desc) + '</p>' : '') +
+            '</div>' + priceHtml(it, gr) + '</li>';
+        }).join('') + '</ul>';
+      }
+      if (gr.tags) h += '<ul class="tags" id="' + s.id + '-' + gi + '-tags">' + gr.tags[lang].map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+      return h + '</div>';
+    }).join('');
+    var num = (idx + 1 < 10 ? '0' : '') + (idx + 1);
+    return '<div class="view">' +
+      '<header class="sec-hero' + (s.art ? '' : ' sec-hero--plain') + '">' +
+        (s.art ? art(s.art, 'sec-hero__art') : '') +
+        '<div class="sec-hero__text">' +
+          '<p class="eyebrow">' + num + ' · ' + esc(t.groups[s.g]) + '</p>' +
+          '<h1 class="sec-hero__title" tabindex="-1">' + esc(L(s.t)) + '</h1>' +
+          '<span class="rule" aria-hidden="true"></span>' +
+          (s.note ? '<p class="sec-hero__note">' + esc(L(s.note)) + '</p>' : '') +
+        '</div>' +
+      '</header>' +
+      '<div class="groups">' + groups + '</div>' +
+      '<nav class="pager" aria-label="' + esc(t.pager) + '">' +
+        (next ? '<a class="next-link" href="#/' + next.id + '" data-nav="replace"><span class="next-link__text"><span class="next-link__label">' + esc(t.next) + '</span><span class="next-link__title">' + esc(L(next.t)) + '</span></span>' + icon('arrow') + '</a>'
+              : '<a class="next-link" href="#/adresses"><span class="next-link__text"><span class="next-link__label">Aroma Gelato</span><span class="next-link__title">' + esc(t.locations) + '</span></span>' + icon('arrow') + '</a>') +
+        (prev ? '<a class="prev-link" href="#/' + prev.id + '" data-nav="replace">' + icon('back') + '<span>' + esc(t.prev) + ' · ' + esc(L(prev.t)) + '</span></a>' : '') +
+      '</nav>' +
+    '</div>';
+  }
+
+  function viewSearch() {
+    var t = T();
+    return '<div class="view search">' +
+      '<h1 class="search__title" tabindex="-1">' + esc(t.searchTitle) + '</h1>' +
+      '<div class="field">' + icon('search') +
+        '<input id="q" type="search" inputmode="search" enterkeyhint="search" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="' + esc(t.searchPh) + '" aria-label="' + esc(t.search) + '" value="' + esc(lastQuery) + '">' +
+        '<button type="button" class="clear-btn" id="qClear" aria-label="' + esc(t.clear) + '"' + (lastQuery ? '' : ' hidden') + '>' + icon('close') + '</button>' +
+      '</div>' +
+      '<div id="results"></div>' +
+    '</div>';
+  }
+
+  function searchResults(q) {
+    var t = T();
+    var nq = norm(q.trim());
+    if (!nq) {
+      return '<div class="suggest"><p class="eyebrow">' + esc(t.suggest) + '</p><div class="suggest__list">' +
+        SUGGESTIONS.map(function (w) { return '<button type="button" data-suggest="' + esc(w) + '">' + esc(w) + '</button>'; }).join('') +
+        '</div></div>';
+    }
+    var out = [];
+    MENU.forEach(function (s) {
+      s.groups.forEach(function (gr, gi) {
+        (gr.items || []).forEach(function (it, ii) {
+          var hay = norm([both(s.t), both(gr.t), both(it.n), both(it.d)].join(' '));
+          if (hay.indexOf(nq) === -1) return;
+          var name = L(it.n);
+          var at = norm(name).indexOf(nq);
+          var nameHtml = at >= 0
+            ? esc(name.slice(0, at)) + '<mark>' + esc(name.slice(at, at + nq.length)) + '</mark>' + esc(name.slice(at + nq.length))
+            : esc(name);
+          var price = Array.isArray(it.p) ? it.p.map(fmt).join(' / ') : fmt(it.p);
+          out.push('<li><a class="result" href="#/' + s.id + '" data-flash="' + s.id + '-' + gi + '-' + ii + '">' +
+            '<span class="result__text"><span class="result__name">' + nameHtml + '</span>' +
+            '<span class="result__where">' + esc(L(s.t)) + (gr.t ? ' · ' + esc(L(gr.t)) : '') + '</span></span>' +
+            '<span class="price">' + price + '<small>FCFA</small></span></a></li>');
+        });
+        if (gr.tags) {
+          gr.tags.fr.forEach(function (tag, k) {
+            if (norm(tag + ' ' + (gr.tags.en[k] || '')).indexOf(nq) === -1) return;
+            var name = gr.tags[lang][k];
+            var at = norm(name).indexOf(nq);
+            var nameHtml = at >= 0
+              ? esc(name.slice(0, at)) + '<mark>' + esc(name.slice(at, at + nq.length)) + '</mark>' + esc(name.slice(at + nq.length))
+              : esc(name);
+            out.push('<li><a class="result" href="#/' + s.id + '" data-flash="' + s.id + '-' + gi + '-tags">' +
+              '<span class="result__text"><span class="result__name">' + nameHtml + '</span>' +
+              '<span class="result__where">' + esc(L(s.t)) + (gr.t ? ' · ' + esc(L(gr.t)) : '') + '</span></span>' +
+              icon('next') + '</a></li>');
+          });
+        }
+      });
+    });
+    if (!out.length) {
+      return '<p class="empty"><strong>' + esc(t.none) + ' « ' + esc(q.trim()) + ' »</strong>' + esc(t.noneHint) + '</p>';
+    }
+    return '<p class="results__count">' + out.length + ' ' + (out.length === 1 ? t.one : t.many) + '</p><ul>' + out.join('') + '</ul>';
+  }
+
+  function updateResults() {
+    var box = document.getElementById('results');
+    if (!box) return;
+    box.innerHTML = searchResults(lastQuery);
+    var clear = document.getElementById('qClear');
+    if (clear) clear.hidden = !lastQuery;
+    var nq = lastQuery.trim();
+    var count = box.querySelectorAll('.result').length;
+    live.textContent = nq ? count + ' ' + (count === 1 ? T().one : T().many) : '';
+  }
+
+  function viewAdresses() {
+    var t = T();
+    var cards = LOCATIONS.map(function (l) {
+      return '<li class="loc"><div class="loc__head">' + icon('pin') + '<div>' +
+        '<h2 class="loc__name">' + esc(l.name) + '</h2>' +
+        (l.place ? '<p class="loc__place">' + esc(L(l.place)) + '</p>' : '') +
+        '</div></div><div class="loc__phones">' +
+        l.phones.map(function (p) {
+          return '<a class="tel" href="tel:+221' + p.replace(/\s/g, '') + '" aria-label="' + esc(t.call + ' ' + l.name + ', ' + p) + '">' + icon('phone') + '<span>' + esc(p) + '</span></a>';
+        }).join('') +
+        '</div></li>';
+    }).join('');
+    return '<div class="view">' +
+      '<header class="sec-hero sec-hero--plain"><div class="sec-hero__text">' +
+        '<p class="eyebrow">Aroma Gelato</p>' +
+        '<h1 class="sec-hero__title" tabindex="-1">' + esc(t.locations) + '</h1>' +
+        '<span class="rule" aria-hidden="true"></span>' +
+        '<p class="sec-hero__note">' + esc(t.tapToCall) + '</p>' +
+      '</div></header>' +
+      '<ul class="locs">' + cards + '</ul>' +
+      '<div class="follow"><p class="eyebrow">' + esc(t.follow) + '</p>' +
+        '<a class="follow__link" href="https://www.aromagelato.it" target="_blank" rel="noopener">' + icon('globe') + '<span>www.aromagelato.it</span></a>' +
+        '<a class="follow__link" href="https://www.instagram.com/aromagelatosenegal/" target="_blank" rel="noopener">' + icon('instagram') + '<span>@aromagelatosenegal</span></a>' +
+        '<p class="follow__link">' + icon('facebook') + '<span>Aroma Gelato Dakar</span></p>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function render(fromClick) {
+    var route = parseRoute();
+    var t = T();
+    var sameView = route.key === lastKey;
+    document.documentElement.lang = lang;
+    document.body.classList.toggle('is-home', route.view === 'home');
+    renderBar(route);
+
+    if (!sameView || fromClick === 'lang') {
+      if (route.view === 'home') main.innerHTML = viewHome();
+      else if (route.view === 'section') main.innerHTML = viewSection(route.idx);
+      else if (route.view === 'search') main.innerHTML = viewSearch();
+      else main.innerHTML = viewAdresses();
+    }
+    if (route.view === 'search') {
+      updateResults();
+      var input = document.getElementById('q');
+      if (input && !sameView && fromClick === true) { try { input.focus({ preventScroll: true }); } catch (e) { /* ignore */ } }
+    }
+
+    document.title = route.view === 'section' ? L(MENU[route.idx].t) + ' — Aroma Gelato'
+      : route.view === 'search' ? t.searchTitle + ' — Aroma Gelato'
+      : route.view === 'adresses' ? t.locations + ' — Aroma Gelato'
+      : t.docTitle;
+
+    if (fromClick !== 'lang' && !sameView) {
+      var y = (history.state && typeof history.state.y === 'number' && fromClick === false) ? history.state.y : 0;
+      window.scrollTo(0, y);
+      if (userNavigated) {
+        var h1 = main.querySelector('h1');
+        if (h1 && route.view !== 'search') { try { h1.focus({ preventScroll: true }); } catch (e) { /* ignore */ } }
+      }
+    }
+    lastKey = route.key;
+
+    if (pendingFlash) {
+      var target = document.getElementById(pendingFlash);
+      pendingFlash = null;
+      if (target) {
+        requestAnimationFrame(function () {
+          target.scrollIntoView({ block: 'center', behavior: 'smooth' });
+          target.classList.remove('is-flash');
+          void target.offsetWidth;
+          target.classList.add('is-flash');
+        });
+      }
+    }
+    updateToTop();
+  }
+
+  /* ================================================================
+     Interactions
+     ================================================================ */
+  document.getElementById('langGroup').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-lang]');
+    if (!b) return;
+    var next = b.getAttribute('data-lang');
+    if (next === lang) return;
+    lang = next;
+    save('aroma-lang', lang);
+    render('lang');
+    if (!updateBox.hidden) showUpdate();
+  });
+
+  main.addEventListener('input', function (e) {
+    if (e.target && e.target.id === 'q') { lastQuery = e.target.value; updateResults(); }
+  });
+
+  main.addEventListener('click', function (e) {
+    var sug = e.target.closest('[data-suggest]');
+    if (sug) {
+      lastQuery = sug.getAttribute('data-suggest');
+      var input = document.getElementById('q');
+      if (input) input.value = lastQuery;
+      updateResults();
+      return;
+    }
+    if (e.target.closest('#qClear')) {
+      lastQuery = '';
+      var q = document.getElementById('q');
+      if (q) { q.value = ''; q.focus(); }
+      updateResults();
+      return;
+    }
+    if (e.target.closest('[data-action="share"]')) share();
+  });
+
+  main.addEventListener('keydown', function (e) {
+    if (e.target && e.target.id === 'q' && e.key === 'Enter') {
+      e.preventDefault();
+      var first = document.querySelector('#results .result');
+      if (first) first.click();
+    }
+  });
+
+  function share() {
+    var t = T();
+    var url = location.href.split('#')[0];
+    if (navigator.share) {
+      navigator.share({ title: t.docTitle, url: url }).catch(function () { /* partage annulé */ });
+      return;
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(url).then(function () { showToast(t.copied); }, function () { /* ignore */ });
+    }
+  }
+
+  var toastTimer = null;
+  function showToast(text) {
+    toast.textContent = text;
+    toast.classList.add('is-on');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () { toast.classList.remove('is-on'); }, 2200);
+  }
+
+  function updateToTop() {
+    toTop.classList.toggle('is-on', window.scrollY > 700);
+  }
+  var ticking = false;
+  window.addEventListener('scroll', function () {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(function () { updateToTop(); ticking = false; });
+  }, { passive: true });
+  toTop.addEventListener('click', function () {
+    var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: reduce ? 'auto' : 'smooth' });
+    var h1 = main.querySelector('h1');
+    if (h1) { try { h1.focus({ preventScroll: true }); } catch (e) { /* ignore */ } }
+  });
+  window.addEventListener('resize', centerChip);
+
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  render(null);
+
+  /* Mise en cache : affichage instantané aux visites suivantes, même hors connexion. */
+  var updateBox = document.getElementById('update');
+  function showUpdate() {
+    var t = T();
+    document.getElementById('updateText').textContent = t.updated;
+    document.getElementById('updateBtn').textContent = t.refresh;
+    updateBox.hidden = false;
+    document.body.classList.add('has-update');
+  }
+  document.getElementById('updateBtn').addEventListener('click', function () { location.reload(); });
+  var secure = location.protocol === 'https:' || location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+  if ('serviceWorker' in navigator && secure) {
+    navigator.serviceWorker.addEventListener('message', function (e) {
+      if (e.data && e.data.type === 'menu-updated') showUpdate();
+    });
+    window.addEventListener('load', function () {
+      navigator.serviceWorker.register('/sw.js').catch(function () { /* navigateur non compatible */ });
+    });
+  }
+})();
+</script>
+</body>
+</html>
